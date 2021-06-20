@@ -10,9 +10,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <style type="text/css">
-        <%@ include file="../static/teacher.css " %>
-    </style>
+<%--    <style type="text/css">--%>
+<%--        <%@ include file="../static/teacher.css " %>--%>
+<%--    </style>--%>
     <title>Title</title>
 </head>
 <body>

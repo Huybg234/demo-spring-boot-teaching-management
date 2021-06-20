@@ -13,8 +13,8 @@ import java.io.Serializable;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-@FieldDefaults(level = AccessLevel.PRIVATE)
 @Table(name = "teacher")
+@FieldDefaults(level = AccessLevel.PRIVATE)
 public class Teacher implements Serializable {
 
     @Id
@@ -32,7 +32,7 @@ public class Teacher implements Serializable {
     @Column(name = "phone_number", nullable = false)
     String phone_number;
 
-    @Column(name = "level", nullable = false)
+    @Column(name = "TEACHER_LEVEL", nullable = false)
     String level;
 
 }

@@ -12,9 +12,9 @@
 <html>
 <head>
     <title>Title</title>
-    <style type="text/css">
-        <%@ include file="../static/teacher.css" %>
-    </style>
+<%--    <style type="text/css">--%>
+<%--        <%@ include file="../static/teacher.css" %>--%>
+<%--    </style>--%>
 </head>
 <body>
 <table id="table">
