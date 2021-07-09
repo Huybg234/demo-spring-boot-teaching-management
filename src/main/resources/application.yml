@@ -2,8 +2,8 @@ spring:
   datasource:
     driver-class-name: oracle.jdbc.OracleDriver
     url: jdbc:oracle:thin:@localhost:1521:xe
-    username: teaching_management
-    password: admin
+    username: teaching_management_hbn_rf
+    password: pass
 
 server:
   port: 9870

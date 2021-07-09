@@ -21,19 +21,17 @@
     <tr>
         <th>Id</th>
         <th>Họ và tên</th>
-        <th>Ngày sinh</th>
-        <th>Quê quán</th>
-        <th>Tên lớp</th>
-        <th>Giới tính</th>
+        <th>Địa chỉ</th>
+        <th>Số điện thoại</th>
+        <th>Trình độ</th>
     </tr>
-    <c:forEach var="student" items="${students}">
+    <c:forEach var="teacher" items="${teachers}">
         <tr>
-            <td>${student.id}</td>
-            <td>${student.fullName}</td>
-            <td>${student.birthday}</td>
-            <td>${student.hometown}</td>
-            <td>${student.className}</td>
-            <td>${student.gender}</td>
+            <td>${teacher.id}</td>
+            <td>${teacher.name}</td>
+            <td>${teacher.address}</td>
+            <td>${teacher.phoneNumber}</td>
+            <td>${teacher.teacherLevel}</td>
         </tr>
     </c:forEach>
 </table>

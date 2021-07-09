@@ -30,9 +30,9 @@ public class Teacher implements Serializable {
     String address;
 
     @Column(name = "phone_number", nullable = false)
-    String phone_number;
+    String phoneNumber;
 
-    @Column(name = "TEACHER_LEVEL", nullable = false)
-    String level;
+    @Column(name = "teacher_level", nullable = false)
+    String teacherLevel;
 
 }

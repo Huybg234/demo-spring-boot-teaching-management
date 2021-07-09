@@ -27,28 +27,23 @@
 <form:form id="form" action="./student" method="POST">
     <root>
         <div class="form-group">
-            <form:label path="fullName">Name</form:label>
-            <form:input path="fullName"/>
+            <form:label path="name">Name</form:label>
+            <form:input path="name"/>
             <br/>
         </div>
         <div class="form-group">
-            <form:label path="birthday">Birthday</form:label>
-            <form:input path="birthday" pattern ="^(0[1-9]|3[01]|[12][0-9])/(0[1-9]|1[0-2])/[0-9]{4}$" />
+            <form:label path="address">Address</form:label>
+            <form:input path="address" />
             <br/>
         </div>
         <div class="form-group">
-            <form:label path="hometown">Hometown</form:label>
-            <form:input path="hometown"/>
+            <form:label path="phoneNumber">PhoneNumber</form:label>
+            <form:input path="phoneNumber"/>
             <br/>
         </div>
         <div class="form-group">
-            <form:label path="className">ClassName</form:label>
-            <form:input path="className"/>
-            <br/>
-        </div>
-        <div class="form-group">
-            <form:label path="gender">Gender</form:label>
-            <form:input path="gender"/>
+            <form:label path="teacherLevel">TeacherLevel</form:label>
+            <form:input path="teacherLevel"/>
             <br/>
         </div>
         <div class="form-group">
